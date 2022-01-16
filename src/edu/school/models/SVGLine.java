@@ -11,7 +11,7 @@ public class SVGLine extends SVGObject{
 	public SVGLine(int startX, int startY, int endX, int endY,
 			Color strokeColor, int strokeWidth)
 	{
-		super(startX, startY, strokeColor);
+		super(startY, strokeWidth, strokeColor, startX, strokeColor);
 		setEndX(endX);
 		setEndY(endY);
 		setStrokeWidth(strokeWidth);
