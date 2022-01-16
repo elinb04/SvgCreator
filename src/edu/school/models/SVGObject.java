@@ -29,11 +29,6 @@ public abstract class SVGObject {
 		this(y, 2, Color.YELLOW, x, Color.BLUE);
 	}
 	
-	//public SVGObject()
-	//{
-	//	this(0,0);
-	//}
-
 	public int getX() {
 		return x;
 	}
